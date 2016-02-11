@@ -16,7 +16,7 @@
 	<!-- ~   PARENT                 ~ -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<parent>
-		<groupId>org.ff4j</groupId>
+		<groupId>com.foodit</groupId>
 		<artifactId>ff4j-parent</artifactId>
 		<version>1.3.6.1-SNAPSHOT</version>
 	</parent>
@@ -36,7 +36,7 @@
 		<!--  core -->
 		<dependency>
 			<artifactId>ff4j-core</artifactId>
-			<groupId>org.ff4j</groupId>
+			<groupId>com.foodit</groupId>
 			<version>${project.version}</version>
 		</dependency>
 		
@@ -54,7 +54,7 @@
 		</dependency>
 		<dependency>
 			<artifactId>ff4j-test</artifactId>
-			<groupId>org.ff4j</groupId>
+			<groupId>com.foodit</groupId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 		</dependency>
